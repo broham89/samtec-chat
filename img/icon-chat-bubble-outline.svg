@@ -1,0 +1,13 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #f70;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <title>icon-chat-bubble-outline</title>
+  <path class="cls-1" d="M33.6,12H14.4A2.4,2.4,0,0,0,12,14.4V36l4.8-4.8H33.6A2.4,2.4,0,0,0,36,28.8V14.4A2.4,2.4,0,0,0,33.6,12Z"/>
+</svg>

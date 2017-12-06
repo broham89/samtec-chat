@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Samtec Chat</title>
+	
+	<!-- CSS link -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<!-- BUTTON CHAT -->
+	<div class="btn-chat">
+		<!-- SVG chat bubble -->
+		<svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 48 40">
+		    <g class="nc-icon-wrapper" fill="#fff">
+		        <path d="M40 4H8C5.79 4 4 5.79 4 8v36l8-8h28c2.21 0 4-1.79 4-4V8c0-2.21-1.79-4-4-4z"></path>
+		    </g>
+		</svg>
+	</div>
+	    
+
+		<!-- CHAT TEXTBOX -->
+		<div id="chat-container" class="chat-box">
+
+			<div class="top-tabbar">
+				<p class="title-tabbar">Samtec Chat</p>
+				<svg id="icon-cancel" data-name="icon-cancel" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38 38">
+				  <defs>
+				    <style>
+				      .cls-1 {
+				        fill: #fff;
+				        stroke: #fff;
+				        stroke-miterlimit: 10;
+				        stroke-width: 3px;
+				      }
+				    </style>
+				  </defs>
+				  <title>cancel-icon</title>
+				  <g>
+				    <line class="cls-1" x1="7" y1="7" x2="31" y2="31"/>
+				    <line class="cls-1" x1="31" y1="7" x2="7" y2="31"/>
+				  </g>
+				</svg>
+			</div>
+
+
+			<!-- CONVERSATION AREA: where the text bubble pop up-->
+			<div id="convobox" class="convo-area">
+				<div id="user-response">
+					<div class="text-container">
+						<span class="subtitle">Usersname</span>
+						<div class="talk-bubble tri-right border btm-right-in">
+							<div id="talktext">
+								<p>User's response here</p>
+							</div>
+						</div>
+					</div>
+						<div class="gravatar profile-user"></div>
+					
+				</div>
+
+				<div id="bot-response">
+					<div class="gravatar profile-bot"></div>
+					<div class="text-container">
+						<span class="subtitle">Tessie the Chatbot</span>
+						<div class="talk-bubble tri-right border btm-left-in">
+							<div id="talktext">
+								<p>Bot response here Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti molestias dignissimos, explicabo. Quas soluta fugit veniam libero consequuntur, atque eveniet quaerat vero blanditiis sed voluptas nobis vitae. Commodi, harum libero?</p>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="input-group">
+				<input type="text" class="form-control" placeholder="What would you like to say?">
+				<span class="input-group-btn">
+					<button class="btn btn-secondary" type="button">
+						<!-- SVG chat bubble -->
+						<svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 48 40">
+						    <g class="nc-icon-wrapper" fill="#ff7700">
+						        <path d="M40 4H8C5.79 4 4 5.79 4 8v36l8-8h28c2.21 0 4-1.79 4-4V8c0-2.21-1.79-4-4-4z"></path>
+						    </g>
+						</svg>
+					</button>
+				</span>
+		    </div>
+		    
+			<!-- Made with Articulate -->
+			<div class="side-tag">
+				<p class="articulate">Made with Articulate</p>
+			</div>
+
+		</div>
+
+<!-- Jquery CDN -->
+<script
+  src="https://code.jquery.com/jquery-3.2.0.slim.min.js"
+  integrity="sha256-qLAv0kBAihcHZLI3fv3WITKeRsUX27hd6upBBa0MSow="
+  crossorigin="anonymous"></script>
+<!-- primary script -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
